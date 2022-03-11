@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-gateway" />
+        <module name="spring-cloud-oauth2-resource-server" />
+        <module name="spring-cloud-oauth2-authorization-server" />
+        <module name="spring-cloud-eureka" />
+        <module name="spring-cloud-kafka" />
+        <module name="spring-cloud-config-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-cloud-config-server" target="17" />
+      <module name="spring-cloud-eureka" target="17" />
+      <module name="spring-cloud-gateway" target="17" />
+      <module name="spring-cloud-kafka" target="11" />
+      <module name="spring-cloud-oauth2-authorization-server" target="11" />
+      <module name="spring-cloud-oauth2-resource-server" target="17" />
+      <module name="spring-cloud-parent" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-cloud-config-server" options="-parameters" />
+      <module name="spring-cloud-eureka" options="-parameters" />
+      <module name="spring-cloud-gateway" options="-parameters" />
+      <module name="spring-cloud-kafka" options="-parameters" />
+      <module name="spring-cloud-oauth2-authorization-server" options="-parameters" />
+      <module name="spring-cloud-oauth2-resource-server" options="-parameters" />
+      <module name="spring-cloud-parent" options="-parameters" />
+    </option>
+  </component>
+</project>

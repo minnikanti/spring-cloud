@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-config-server/spring-cloud-config-server.iml" filepath="$PROJECT_DIR$/spring-cloud-config-server/spring-cloud-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-gateway/spring-cloud-gateway.iml" filepath="$PROJECT_DIR$/spring-cloud-gateway/spring-cloud-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-kafka/spring-cloud-kafka.iml" filepath="$PROJECT_DIR$/spring-cloud-kafka/spring-cloud-kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-oauth2-authorization-server/spring-cloud-oauth2-authorization-server.iml" filepath="$PROJECT_DIR$/spring-cloud-oauth2-authorization-server/spring-cloud-oauth2-authorization-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-oauth2-resource-server/spring-cloud-oauth2-resource-server.iml" filepath="$PROJECT_DIR$/spring-cloud-oauth2-resource-server/spring-cloud-oauth2-resource-server.iml" />
+    </modules>
+  </component>
+</project>
